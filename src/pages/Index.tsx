@@ -175,7 +175,7 @@ export default function Index() {
 
           <div className="animate-pop-in" style={{ animationDelay: "0.1s", opacity: 0 }}>
             <p className="text-amber-400/80 font-rubik font-semibold text-lg tracking-[0.3em] uppercase mb-3">
-              ✦ Вы получили приглашение ✦
+              ✦ Ты получила приглашение ✦
             </p>
           </div>
 
@@ -184,16 +184,16 @@ export default function Index() {
               className="font-pacifico text-6xl sm:text-8xl text-transparent bg-clip-text mb-6 leading-tight"
               style={{ backgroundImage: "linear-gradient(135deg, #F59E0B 0%, #EC4899 40%, #7C3AED 80%, #06B6D4 100%)" }}
             >
-              Мой день рождения!
+              Празднование моего дня рождения!
             </h1>
           </div>
 
           <div className="animate-fade-up" style={{ animationDelay: "0.5s", opacity: 0 }}>
             <p className="text-white/80 text-xl sm:text-2xl font-rubik font-light mb-2">
-              Дорогой гость, мы рады пригласить вас на
+              Я рада пригласить тебя на мой особенный вечер
             </p>
             <p className="text-white text-2xl sm:text-3xl font-rubik font-bold mb-8">
-              Наш особенный вечер 🥂
+              Жду тебя! 🥂
             </p>
           </div>
 
@@ -201,13 +201,13 @@ export default function Index() {
           <div className="animate-fade-up" style={{ animationDelay: "0.7s", opacity: 0 }}>
             <div className="inline-flex items-center gap-4 backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl px-8 py-5 mb-8 shadow-xl">
               <div className="text-center">
-                <div className="text-amber-400 font-pacifico text-4xl">28</div>
-                <div className="text-white/60 text-sm font-rubik uppercase tracking-wider">Апреля</div>
+                <div className="text-amber-400 font-pacifico text-4xl">1</div>
+                <div className="text-white/60 text-sm font-rubik uppercase tracking-wider">Мая</div>
               </div>
               <div className="w-px h-12 bg-white/20" />
               <div className="text-center">
                 <div className="text-white font-rubik font-bold text-xl">2026</div>
-                <div className="text-white/60 text-sm uppercase tracking-wider">Вторник</div>
+                <div className="text-white/60 text-sm uppercase tracking-wider">Пятница</div>
               </div>
               <div className="w-px h-12 bg-white/20" />
               <div className="text-center">
