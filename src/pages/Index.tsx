@@ -201,13 +201,13 @@ export default function Index() {
           <div className="animate-fade-up" style={{ animationDelay: "0.7s", opacity: 0 }}>
             <div className="inline-flex items-center gap-4 backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl px-8 py-5 mb-8 shadow-xl">
               <div className="text-center">
-                <div className="text-amber-400 font-pacifico text-4xl">15</div>
-                <div className="text-white/60 text-sm font-rubik uppercase tracking-wider">Июня</div>
+                <div className="text-amber-400 font-pacifico text-4xl">28</div>
+                <div className="text-white/60 text-sm font-rubik uppercase tracking-wider">Апреля</div>
               </div>
               <div className="w-px h-12 bg-white/20" />
               <div className="text-center">
                 <div className="text-white font-rubik font-bold text-xl">2025</div>
-                <div className="text-white/60 text-sm uppercase tracking-wider">Суббота</div>
+                <div className="text-white/60 text-sm uppercase tracking-wider">Понедельник</div>
               </div>
               <div className="w-px h-12 bg-white/20" />
               <div className="text-center">
@@ -217,17 +217,35 @@ export default function Index() {
             </div>
           </div>
 
-          {/* Hero image */}
+          {/* Hero photo */}
           <div className="animate-fade-up" style={{ animationDelay: "0.9s", opacity: 0 }}>
-            <div className="relative mx-auto max-w-2xl rounded-3xl overflow-hidden shadow-2xl border border-white/10 animate-pulse-glow">
-              <img
-                src="https://cdn.poehali.dev/projects/1d1a0b93-104c-4a50-af9b-f79618539395/files/599afaf5-a27e-4e3f-be1d-553127f14e81.jpg"
-                alt="Праздничный стол"
-                className="w-full h-64 sm:h-80 object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#0D0520]/60 to-transparent" />
-              <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white font-pacifico text-2xl whitespace-nowrap">
-                Ждём вас! 🎊
+            <div className="relative mx-auto max-w-xs">
+              {/* Age badge */}
+              <div
+                className="absolute -top-5 -right-5 z-20 w-24 h-24 rounded-full flex flex-col items-center justify-center shadow-2xl border-4 border-[#0D0520] animate-pulse-glow"
+                style={{ background: "linear-gradient(135deg, #F59E0B, #EC4899)" }}
+              >
+                <span className="font-pacifico text-3xl text-white leading-none">25</span>
+                <span className="text-white/80 text-xs font-rubik font-semibold uppercase tracking-wider">лет</span>
+              </div>
+
+              {/* Decorative balloons */}
+              <div className="absolute -left-8 top-1/3 text-4xl animate-float z-10">🎈</div>
+              <div className="absolute -right-10 bottom-1/4 text-3xl animate-float-delayed z-10">🎀</div>
+
+              {/* Photo frame */}
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-amber-400/50"
+                style={{ boxShadow: "0 0 40px rgba(245,158,11,0.3), 0 0 80px rgba(236,72,153,0.2)" }}>
+                <img
+                  src="https://cdn.poehali.dev/projects/1d1a0b93-104c-4a50-af9b-f79618539395/bucket/ce9e051c-71fc-4a5b-81b6-f984790ec4f6.jpg"
+                  alt="Именинник"
+                  className="w-full object-cover object-top"
+                  style={{ maxHeight: "400px" }}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0D0520]/50 to-transparent pointer-events-none" />
+                <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white font-pacifico text-xl whitespace-nowrap drop-shadow-lg">
+                  Ждём вас! 🎊
+                </div>
               </div>
             </div>
           </div>
