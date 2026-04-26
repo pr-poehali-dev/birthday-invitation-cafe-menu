@@ -204,7 +204,7 @@ export default function Index() {
               className="font-pacifico text-6xl sm:text-8xl text-transparent bg-clip-text mb-6 leading-tight"
               style={{ backgroundImage: "linear-gradient(135deg, #F59E0B 0%, #EC4899 40%, #7C3AED 80%, #06B6D4 100%)" }}
             >
-              Празднование моего дня рождения!
+              Юбилей!
             </h1>
           </div>
 
