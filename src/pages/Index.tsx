@@ -128,7 +128,7 @@ export default function Index() {
       <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-4">
         <div className="max-w-4xl mx-auto">
           <div className="backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl px-6 py-3 flex items-center justify-between shadow-2xl">
-            <span className="font-pacifico text-xl text-amber-400">🎉 Праздник!</span>
+            <span className="font-pacifico text-xl text-amber-400">🎉 День рождения!</span>
             <div className="flex gap-2">
               {[
                 { id: "home", label: "Главная", emoji: "🏠" },
@@ -184,7 +184,7 @@ export default function Index() {
               className="font-pacifico text-6xl sm:text-8xl text-transparent bg-clip-text mb-6 leading-tight"
               style={{ backgroundImage: "linear-gradient(135deg, #F59E0B 0%, #EC4899 40%, #7C3AED 80%, #06B6D4 100%)" }}
             >
-              Праздник!
+              Мой день рождения!
             </h1>
           </div>
 
@@ -206,12 +206,12 @@ export default function Index() {
               </div>
               <div className="w-px h-12 bg-white/20" />
               <div className="text-center">
-                <div className="text-white font-rubik font-bold text-xl">2025</div>
-                <div className="text-white/60 text-sm uppercase tracking-wider">Понедельник</div>
+                <div className="text-white font-rubik font-bold text-xl">2026</div>
+                <div className="text-white/60 text-sm uppercase tracking-wider">Вторник</div>
               </div>
               <div className="w-px h-12 bg-white/20" />
               <div className="text-center">
-                <div className="text-pink-400 font-rubik font-bold text-xl">19:00</div>
+                <div className="text-pink-400 font-rubik font-bold text-xl">17:00</div>
                 <div className="text-white/60 text-sm uppercase tracking-wider">Начало</div>
               </div>
             </div>
