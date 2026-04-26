@@ -22,6 +22,9 @@ interface MenuItem {
 }
 
 const MENU_ITEMS: MenuItem[] = [
+  { id: 10, name: "С жареным баклажаном", description: "Баклажан, томаты, руккола, брокколи, киноа", emoji: "🥗", category: "Салаты", selected: false },
+  { id: 11, name: "С индейкой, руколой и томатами", description: "Нежная индейка, свежая руккола, черри, заправка", emoji: "🥙", category: "Салаты", selected: false },
+  { id: 12, name: "Салат с языком", description: "Говяжий язык, авокадо, каперсы, зелень, лайм", emoji: "🫛", category: "Салаты", selected: false },
   { id: 3, name: "Крем-суп из тыквы", description: "С трюфельным маслом и тыквенными семечками", emoji: "🎃", category: "Супы", selected: false },
   { id: 4, name: "Говяжья вырезка", description: "Медальоны с соусом из красного вина", emoji: "🥩", category: "Горячее", selected: false },
   { id: 5, name: "Запечённый лосось", description: "С лимонно-укропным соусом и овощами гриль", emoji: "🐠", category: "Горячее", selected: false },
