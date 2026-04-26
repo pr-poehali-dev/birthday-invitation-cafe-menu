@@ -50,9 +50,7 @@ const MENU_ITEMS: MenuItem[] = [
   { id: 30, name: "Фрутти ди маре", description: "Паста с морепродуктами", emoji: "🦑", category: "Горячее", selected: false },
   { id: 31, name: "Казаречче с томлёными щёчками", description: "Паста с томлёными говяжьими щёчками", emoji: "🥩", category: "Горячее", selected: false },
   { id: 32, name: "Брачиолле с копчёным цыплёнком", description: "Паста с копчёным цыплёнком, соус из трав", emoji: "🍗", category: "Горячее", selected: false },
-  { id: 7, name: "Торт «Три шоколада»", description: "Мусс из трёх видов шоколада на брауни", emoji: "🎂", category: "Десерты", selected: false },
-  { id: 8, name: "Клубничный тарт", description: "Свежая клубника, крем патисьер, хрустящее тесто", emoji: "🍓", category: "Десерты", selected: false },
-  { id: 9, name: "Фруктовый сорбет", description: "Манго, маракуйя, малина", emoji: "🍧", category: "Десерты", selected: false },
+
 ];
 
 function generateConfetti(count: number): ConfettiPiece[] {
