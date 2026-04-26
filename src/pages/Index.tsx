@@ -22,8 +22,6 @@ interface MenuItem {
 }
 
 const MENU_ITEMS: MenuItem[] = [
-  { id: 1, name: "Тартар из лосося", description: "С авокадо, огурцом и соусом понзу", emoji: "🐟", category: "Закуски", selected: false },
-  { id: 2, name: "Брускетта с томатами", description: "Спелые томаты, базилик, оливковое масло", emoji: "🍅", category: "Закуски", selected: false },
   { id: 3, name: "Крем-суп из тыквы", description: "С трюфельным маслом и тыквенными семечками", emoji: "🎃", category: "Супы", selected: false },
   { id: 4, name: "Говяжья вырезка", description: "Медальоны с соусом из красного вина", emoji: "🥩", category: "Горячее", selected: false },
   { id: 5, name: "Запечённый лосось", description: "С лимонно-укропным соусом и овощами гриль", emoji: "🐠", category: "Горячее", selected: false },
