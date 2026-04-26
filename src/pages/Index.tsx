@@ -175,7 +175,7 @@ export default function Index() {
 
           <div className="animate-pop-in" style={{ animationDelay: "0.1s", opacity: 0 }}>
             <p className="text-amber-400/80 font-rubik font-semibold text-lg tracking-[0.3em] uppercase mb-3">
-              ✦ Ты получила приглашение ✦
+              ✦ Вы получили приглашение ✦
             </p>
           </div>
 
