@@ -195,7 +195,7 @@ export default function Index() {
 
           <div className="animate-pop-in" style={{ animationDelay: "0.1s", opacity: 0 }}>
             <p className="text-amber-400/80 font-rubik font-semibold text-lg tracking-[0.3em] uppercase mb-3">
-              ✦ Вы получили приглашение ✦
+              ✦ Вы получили приглашение на мою дэрэшэчку ✦
             </p>
           </div>
 
@@ -210,10 +210,10 @@ export default function Index() {
 
           <div className="animate-fade-up" style={{ animationDelay: "0.5s", opacity: 0 }}>
             <p className="text-white/80 text-xl sm:text-2xl font-rubik font-light mb-2">
-              Я рада пригласить тебя на мой особенный вечер
+              Я рада пригласить тебя на мой особенный вечер 🎀
             </p>
             <p className="text-white text-2xl sm:text-3xl font-rubik font-bold mb-8">
-              Жду тебя! 🥂
+              Жду с нетерпением! 🥂
             </p>
           </div>
 
